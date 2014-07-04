@@ -1,0 +1,12 @@
+development:
+  adapter: postgresql
+  database: polymer_rails_example_development
+  host: localhost
+  username:
+  password:
+production:
+  adapter: postgresql
+  database: polymer_rails_example_production
+  host: localhost
+  username:
+  password:
