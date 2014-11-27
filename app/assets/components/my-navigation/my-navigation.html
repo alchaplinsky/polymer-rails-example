@@ -1,6 +1,6 @@
 <polymer-element name="my-navigation">
   <template>
-    <%= stylesheet_link_tag 'my-navigation/style'%>
+    <link rel="stylesheet" href="style.sass" />
     <ul class="navigation">
       <li><a href="/">Home</a></li>
       <li><a href="/">Contacts</a></li>
@@ -10,5 +10,5 @@
     </ul>
   </template>
 
-<%= javascript_include_tag "my-navigation/my-navigation"%>
+<script src="my-navigation.coffee"></script>
 </polymer-element>
