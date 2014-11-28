@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/alchapone/polymer-rails.git
+  revision: a8818bd701aa2c08e96a134c8b5b7a9b311a8236
+  specs:
+    polymer-rails (0.2.4)
+      nokogiri (~> 1.6)
+      nokogumbo (~> 1.1)
+      rails (>= 3.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,16 +63,12 @@ GEM
     mini_portile (0.6.1)
     minitest (5.3.5)
     multi_json (1.10.1)
-    nokogiri (1.6.4.1)
+    nokogiri (1.6.5)
       mini_portile (~> 0.6.0)
     nokogumbo (1.1.13)
       nokogiri
     pg (0.17.1)
     polyglot (0.3.5)
-    polymer-rails (0.2.4)
-      nokogiri (~> 1.6)
-      nokogumbo (~> 1.1)
-      rails (>= 3.1.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -125,7 +130,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   pg (= 0.17.1)
-  polymer-rails (~> 0.2.4)
+  polymer-rails!
   rails (= 4.1.4)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
