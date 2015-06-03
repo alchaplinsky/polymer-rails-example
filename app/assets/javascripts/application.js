@@ -10,5 +10,5 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require polymer/webcomponents
+//= require webcomponentsjs/webcomponents-lite
 //= require_tree .
